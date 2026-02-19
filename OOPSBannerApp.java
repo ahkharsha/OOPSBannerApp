@@ -1,18 +1,23 @@
 /**
- * OOPSBannerApp UC1 – OOPS Banner Display Application
- *
- * This application prints the OOPS acronym to the console.
- *
+ * OOPSBannerApp UC2 – OOPS Banner Display Application
+ * 
+ * This application prints the OOPS banner by combining text to display it in 7 lines with a width of 9.
+ * 
  * @author Developer
- * @version 1.0
+ * @version 2.0
  */
 
-public class OOPSBannerApp {
-
+class OOPSBannerApp {
     // Main method to run the application
-    public static void main(String[] args) {
-        
-        // Print the text "OOPS" to the console
-        System.out.println("OOPS");
-    }
+	public static void main(String args[]) {
+
+        // Print the OOPS banner line by line using string concatenation
+		System.out.println("  *****  "+" "+"  *****  "+" "+"******** "+" "+"  ****** ");
+		System.out.println(" **   ** "+" "+" **   ** "+" "+"**     **"+" "+" **    **");
+		System.out.println("**     **"+" "+"**     **"+" "+"**     **"+" "+"**       ");
+		System.out.println("**     **"+" "+"**     **"+" "+"******** "+" "+" ******* ");
+		System.out.println("**     **"+" "+"**     **"+" "+"**       "+" "+"       **");
+		System.out.println(" **   ** "+" "+" **   ** "+" "+"**       "+" "+"**    ** ");
+		System.out.println("  *****  "+" "+"  *****  "+" "+"**       "+" "+" ******  ");
+	}
 }
